@@ -1,0 +1,116 @@
+body {
+    padding-top: 70px;
+    font-size: 18px;
+}
+
+h1 {
+    font-family: "Helvetica Neue","Lucida Grande",Helvetica,Arial,sans-serif;
+    font-size: "x-large";
+}
+
+h2 {
+    font-size: 200%;
+}
+
+.container {
+    max-width: 970px;
+}
+
+.colored {
+    color: #FFDE00;
+    background-color: #6599FF;
+}
+
+
+.colored #personal_info {
+    color: #FFDE00;
+    background-color: #6599FF;
+}
+
+.colored #academic_background {
+    color: #097054;
+    background-color: #FFDE00;
+}
+
+.colored #work_experience {
+    color: #FF9900;
+    background-color: #097054;
+}
+
+.colored #publications, .colored #abstracts {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+#carousel-item{
+    background-color: White;
+    padding-left: 250px;
+    padding-bottom: 100px;
+}
+
+
+.carousel-caption{
+    color:Black;
+}
+
+.carousel-indicators li{
+    background-color:Black;
+    border: 1px solid Black;
+}
+
+#main {
+    left: 50%;
+    margin-left: -400px;
+    min-height: 400px;
+    position: absolute;
+    top: 60px;
+    width: 800px;
+}
+
+#main #content {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 3px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    color: #000000;
+    font-family: "myriad-pro","Helvetica Neue","Lucida Grande",Helvetica,Arial,sans-serif;
+    font-size: 11pt;
+    line-height: 16pt;
+    padding: 10px 30px 30px;
+    position: relative;
+    top: 60px;
+}
+
+pre {
+    -moz-tab-size: 3;
+    background: none repeat scroll 0 0 #222222;
+    border-radius: 3px;
+    color: #FFFFFF;
+    font-family: Menlo,Monaco,monospace;
+    font-size: 9pt;
+    padding: 8px;
+    white-space: pre-wrap;
+    width: 724px;
+    word-wrap: break-word;
+}
+
+.KEYWORD {
+    color: #F0C77A;
+}
+
+.FUNCTION {
+    color: #CEC6F1;
+}
+
+.NUMBER {
+    color: #A2C2E3;
+}
+
+
+#largeImgPanel {
+    text-align: center;
+    visibility: hidden;
+    position: fixed;
+    z-index: 100;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background-color: rgba(100,100,100, 0.5);
+            }
