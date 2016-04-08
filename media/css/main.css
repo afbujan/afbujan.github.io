@@ -21,7 +21,6 @@ h2 {
     background-color: #6599FF;
 }
 
-
 .colored #personal_info {
     color: #FFDE00;
     background-color: #6599FF;
@@ -47,7 +46,6 @@ h2 {
     padding-left: 250px;
     padding-bottom: 100px;
 }
-
 
 .carousel-caption{
     color:Black;
@@ -114,3 +112,30 @@ pre {
     top: 0; left: 0; width: 100%; height: 100%;
     background-color: rgba(100,100,100, 0.5);
             }
+
+a.link {
+    background: #666 none repeat scroll 0 0;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 9pt;
+    line-height: 18pt;
+    opacity: 0.7;
+    padding: 2px 4px;
+}
+a.link:hover {
+    opacity: 1;
+}
+
+a.link_url, a.link_doi, a.link_isbn, a.link_custom {
+    background: #56A5EC none repeat scroll 0 0;
+    color: #FFFFFF;
+    font-size: 9pt;
+    padding: 1px;
+}
+
+a.link_code, a.link_custom {
+    background: #FF9C00 none repeat scroll 0 0;
+    color: #FFFFFF;
+    font-size: 9pt;
+    padding: 1px;
+}
