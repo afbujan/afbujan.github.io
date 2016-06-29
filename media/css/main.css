@@ -148,3 +148,16 @@ a.link_pdf, a.link_custom {
     padding: 1px;
 }
 
+a.link_lecture, a.link_custom {
+    background: #FF0000 none repeat scroll 0 0;
+    color:  #F1C40F;
+    font-size: 9pt;
+    padding: 1px;
+}
+
+a.link_exercise, a.link_custom {
+    background: #2ECC71 none repeat scroll 0 0;
+    color:  #FFFFFF ;
+    font-size: 9pt;
+    padding: 1px;
+}
